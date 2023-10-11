@@ -1,14 +1,25 @@
 img {
-    height: 250px;
-    padding: 15px;
+    width: 100%;
+    padding: 0;
+}
+
+div {
+    float: left;
+    width: 50%;
+    margin-left: 0;
+}
+
+#logo {
+    border: 1px solid red;
+}
+
+#definition {
+    border: 1px solid blue;
 }
 
 .container {
-    display: inline-block;
-    background-color: azure;
-    min-width: 330px;
-    max-width: 700px;
-    padding: 15px;
-    border: 2px solid red;
-    margin: 15px auto;
+    border: 2px solid greenyellow;
+    display: flex;
+    width: 90%;
+    padding: 20px;
 }
