@@ -1,0 +1,21 @@
+* {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.block {
+    border: 1px solid orangered;
+    display: block;
+    background-color: khaki;
+}
+
+.inline-block {
+    border: 1px solid blue;
+    display: inline-block;
+    background-color: beige;
+}
+
+.inline {
+    border: 1px solid rgb(46, 20, 2);
+    display: inline;
+    background-color: lightgreen;
+}
