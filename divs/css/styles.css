@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(250, 168, 138);
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    display: block;
+    margin: 25px 25px;
+    border: 2px solid;
+    border-color: rgb(249, 247, 247);
+}
+
+header {
+    background-color: #fff;
+}
+
+#lex, nav {
+    display: block;
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+nav {
+    display: inline;
+    float: right;   
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 10px;
+}
+
+table, th, td {
+    border: 1px double;
+}
+
+th, td {
+    padding: 8px;
+}
+
+a {
+    padding: 8px;
+}
+
+.nvbar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    color: teal;
+}
