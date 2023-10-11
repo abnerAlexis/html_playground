@@ -25,7 +25,7 @@ div {
 .container {
     border: 2px solid greenyellow;
     display: flex;
-    width: 90%;
+    width: 100%;
     padding: 20px;
     margin: 0 auto;
 }
