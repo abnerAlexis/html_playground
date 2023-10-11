@@ -1,9 +1,10 @@
 div {
     max-width: 700px;
+    margin: 0 auto;
 }
 
 .float {
     width: 300px;
     margin: 5px 15px;
-    float: left;
+    float: right;
 }
