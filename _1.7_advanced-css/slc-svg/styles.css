@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+@keyframes color-change {
+    0% {
+            fill: #ccf;
+        }
+
+        50% {
+            fill: #33f;
+        }
+
+        100% {
+            fill: #f76414;
+        }
+}
+
+path {
+   animation: 4s color-change infinite alternate linear;
+}
