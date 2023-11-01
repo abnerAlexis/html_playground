@@ -22,7 +22,7 @@
 }
 @media (min-width: 1024px) {
   .section-contact .container {
-    paddign: 0 128px;
+    padding: 0 128px;
   }
 }
 .section-contact .container h1 {
@@ -51,9 +51,6 @@
   .section-contact .container form {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-.section-contact .container form .form-group {
-  /* this will provide alignment */
 }
 .section-contact .container form .form-group.full {
   /* Starting from the first element to
