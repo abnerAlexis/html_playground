@@ -80,6 +80,13 @@
                     border-radius: 8px;
                     padding: 12px 16px;
                     background-color: #f1ede8;
+
+                    &:focus {
+                        /* When clicked input boxes will be white and get box shadow */
+                        box-shadow: 0 0 6px rgba(0, 0, 0, 20%);
+                        background-color: white;
+                        transition: 0.4s;
+                    }
                 }
 
                 textarea {
@@ -87,11 +94,29 @@
                     resize: none;
                     min-height: 100px;
                 }
+            }
+            .submit-group {
+                /* button will span to the end */
+                grid-column: 1 / -1;
+                /* This supposed to take submit button to the right but
+                it's not happening */
+                text-align: right;
 
-                .submit-group {
-                    /* button will span to the end */
-                    grid-column: 1 / -1;
-                    text-align: right;
+                input[type="submit"] {
+                    appearance: none;
+                    border: none;
+                    outline: none;
+                    background: none;
+
+                    padding: 12px 16px;
+                    background-color: #f08603;
+                    border-radius: 8px;
+                    color: white;
+                    cursor: pointer;
+                    transition: 0.4s;
+                    &:hover {
+                        background-color: #f93c02;
+                    }
                 }
             }
         }
